@@ -1,5 +1,6 @@
-# Sam's Harvestpack Modern - for Pam's HarvestCraft 2
-## 潘马斯2现代化 (Pam's HarvestCraft 2 材质包)
+# Harvestpack Modern - for Pam's HarvestCraft 2
+
+## 潘马斯 2 现代化 (Pam's HarvestCraft 2 材质包)
 
 这是一个致力于现代化 Minecraft 著名模组 [Pam's HarvestCraft 2](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core) 材质风格的资源包项目。本材质包的基于 [Sam's Harvestpack](https://www.curseforge.com/minecraft/texture-packs/sams-harvestpack-pams-harvestcraft-1-12-2-pack)，该材质包最初为 Minecraft 1.12.2 版本设计。随着 Minecraft 版本的更新，原版 Pam's HarvestCraft 模组的许多经典材质在视觉上已不再契合新版 Minecraft 的“Jappa”风格，甚至模组内部不同物品之间的风格也缺乏统一性。
 
@@ -16,7 +17,6 @@
 **使用前 (Before):**
 
 <img width="623" height="478" alt="Vanilla Pam's HarvestCraft 2 Textures" src="https://github.com/user-attachments/assets/9796a5d7-f56f-46ee-a45a-d0cbc840fa6e" />
-
 
 **使用后 (After):**
 
@@ -35,10 +35,10 @@
 1.  **进入 "Issues" 页面**: 点击项目顶部的 `Issues` 标签。
 2.  **创建新 Issue**: 点击 `New issue` 按钮。
 3.  **提交您的作品**:
-    * 为您的 Issue 起一个清晰的标题，例如 `【材质提交】重置苹果派纹理`。
-    * 在下方的描述框中，**直接将您制作好的 `.png` 材质图片文件拖拽进来**。
-    * 您可以附上几句简单的说明。
-    * 最后点击 `Submit new issue` 即可。
+    - 为您的 Issue 起一个清晰的标题，例如 `【材质提交】重置苹果派纹理`。
+    - 在下方的描述框中，**直接将您制作好的 `.png` 材质图片文件拖拽进来**。
+    - 您可以附上几句简单的说明。
+    - 最后点击 `Submit new issue` 即可。
 
 我们会定期检查 Issues，并将您的作品整合到项目中，同时在贡献者名单中感谢您！
 
@@ -908,7 +908,7 @@
 
 简单来说，这意味着**您可以完全自由地**：
 
-* **使用**：在您自己的整合包、服务器、视频或任何项目中免费使用本材质包。
-* **分发**：自由地分享、复制和重新分发本材质包。
-* **修改**：根据您的需求自由地修改、衍生和创作。
-* **商用**：可用于商业用途。
+- **使用**：在您自己的整合包、服务器、视频或任何项目中免费使用本材质包。
+- **分发**：自由地分享、复制和重新分发本材质包。
+- **修改**：根据您的需求自由地修改、衍生和创作。
+- **商用**：可用于商业用途。

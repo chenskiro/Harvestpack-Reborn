@@ -1,0 +1,72 @@
+# .github/workflows/pack-release.yml
+
+name: Pack and Release Resource Pack
+
+# 触发条件：
+# 1. 当 main 分支下 assets/ 目录有任何文件更新时
+# 2. 当 main 分支下 .github/workflows/ 目录下的任何文件被更新时
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+      - ".github/workflows/**"
+
+jobs:
+  build-and-release:
+    # 使用最新的 Ubuntu 系统作为运行环境
+    runs-on: ubuntu-latest
+
+    steps:
+      # 第一步：检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 第二步：为 Minecraft 1.20.1 打包
+      # pack_format: 15 对应 1.20 ~ 1.20.1
+      - name: Zip for Minecraft 1.20.1
+        run: |
+          # 创建 1.20.1 版本的 pack.mcmeta 文件
+          echo '{"pack":{"pack_format":15,"description":"Harvestpack Modern for Pam'\''s HC2"}}' > pack.mcmeta
+
+          # 定义压缩包名称
+          zip_name="Harvestpack-Modern-1.20.1.zip"
+
+          # 将 assets 目录, pack.mcmeta 和 pack.png (如果存在) 打包
+          zip -r ${{ github.workspace }}/${zip_name} assets pack.mcmeta pack.png
+
+      # 第三步：为 Minecraft 1.21.1 打包
+      # pack_format: 48 对应 1.21.1
+      - name: Zip for Minecraft 1.21.1
+        run: |
+          # 创建 1.21.1 版本的 pack.mcmeta 文件
+          echo '{"pack":{"pack_format":48,"description":"Harvestpack Modern for Pam'\''s HC2"}}' > pack.mcmeta
+
+          # 定义压缩包名称
+          zip_name="Harvestpack-Modern-1.21.1.zip"
+
+          # 将 assets 目录, pack.mcmeta 和 pack.png (如果存在) 打包
+          zip -r ${{ github.workspace }}/${zip_name} assets pack.mcmeta pack.png
+
+      # 第四步：创建 Release 并上传打包好的文件
+      - name: Create Release and Upload Assets
+        uses: ncipollo/release-action@v1
+        with:
+          # 需要一个 GitHub Token 来授权 Action 创建 Release
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # 要上传的文件路径，支持通配符
+          artifacts: "${{ github.workspace }}/Harvestpack-Modern-*.zip"
+
+          # 自动生成一个基于提交哈希的标签，避免冲突
+          tag: release-${{ github.sha }}
+
+          # Release 的标题
+          name: "Auto Release ${{ github.run_number }} (${{ github.sha }})"
+
+          # 允许后续的提交更新这个 Release 的内容
+          allowUpdates: true
+
+          # 将 Release 标记为预发布版本
+          prerelease: true
