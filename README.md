@@ -1,0 +1,914 @@
+# Sam's Harvestpack Modern - for Pam's HarvestCraft 2
+## 潘马斯2现代化 (Pam's HarvestCraft 2 材质包)
+
+这是一个致力于现代化 Minecraft 著名模组 [Pam's HarvestCraft 2](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core) 材质风格的资源包项目。本材质包的基于 [Sam's Harvestpack](https://www.curseforge.com/minecraft/texture-packs/sams-harvestpack-pams-harvestcraft-1-12-2-pack)，该材质包最初为 Minecraft 1.12.2 版本设计。随着 Minecraft 版本的更新，原版 Pam's HarvestCraft 模组的许多经典材质在视觉上已不再契合新版 Minecraft 的“Jappa”风格，甚至模组内部不同物品之间的风格也缺乏统一性。
+
+本项目的核心目标是：**重绘并统一 Pam's HarvestCraft 2 的所有物品与方块纹理，使其与现代 Minecraft 的视觉风格保持一致，提供更加美观、沉浸的游戏体验。**
+
+真诚地欢迎每一位 Minecraft 玩家参与！哪怕只是修改一个物品的纹理，都是对社区的宝贵贡献。
+
+---
+
+## 🎨 对比截图 / Comparison
+
+通过对比图，您可以直观地感受到材质包带来的视觉提升。
+
+**使用前 (Before):**
+
+<img width="623" height="478" alt="Vanilla Pam's HarvestCraft 2 Textures" src="https://github.com/user-attachments/assets/9796a5d7-f56f-46ee-a45a-d0cbc840fa6e" />
+
+
+**使用后 (After):**
+
+<img width="625" height="502" alt="Sam's Harvestpack Modern Textures" src="https://github.com/user-attachments/assets/2c1458c8-8eca-4b0e-9f54-5ff2fafc4a2d" />
+
+---
+
+## 🤝 如何贡献 / How to Contribute
+
+我们欢迎任何形式的贡献！您可以根据自己的熟悉程度，选择以下任一方式参与项目：
+
+### 方式一：通过 Issues
+
+如果您不熟悉 Git 或 GitHub 的复杂操作，这是最简单的方式：
+
+1.  **进入 "Issues" 页面**: 点击项目顶部的 `Issues` 标签。
+2.  **创建新 Issue**: 点击 `New issue` 按钮。
+3.  **提交您的作品**:
+    * 为您的 Issue 起一个清晰的标题，例如 `【材质提交】重置苹果派纹理`。
+    * 在下方的描述框中，**直接将您制作好的 `.png` 材质图片文件拖拽进来**。
+    * 您可以附上几句简单的说明。
+    * 最后点击 `Submit new issue` 即可。
+
+我们会定期检查 Issues，并将您的作品整合到项目中，同时在贡献者名单中感谢您！
+
+### 方式二：通过 Pull Request (适合熟悉 Git 的用户)
+
+这是标准的开源项目贡献流程，可以更好地保留您的提交记录：
+
+1.  **Fork** 本项目到您的仓库。
+2.  在您的仓库中创建新的分支，并完成材质的修改或添加。
+3.  向本项目的主分支提交 **Pull Request (PR)**。
+
+---
+
+## 📝 待办清单 / To-Do List
+
+<details>
+<summary>点击展开/折叠当前缺失的材质列表</summary>
+
+```diff
+ │      └─item
+-│              alfalfaitem.png
+-│              alfalfaseeditem.png
+-│              aloeitem.png
+-│              aloeseeditem.png
+-│              bakedarrowrootitem.png
+-│              bakedjicamaitem.png
+-│              bakedparsnipitem.png
+-│              bakedrutabagaitem.png
+-│              bakedtaroitem.png
+-│              bakedwaterchestnutitem.png
+-│              barrelcactusitem.png
+-│              barrelcactusseeditem.png
+-│              bokchoyitem.png
+-│              bokchoyseeditem.png
+-│              calabashseeditem.png
+-│              canolaitem.png
+-│              canolaseeditem.png
+-│              cattailitem.png
+-│              cattailseeditem.png
+-│              cauliflowerseeditem.png
+-│              chiaitem.png
+-│              chiaseeditem.png
+-│              cloudberryitem.png
+-│              cloudberryseeditem.png
+-│              guaranaitem.png
+-│              guaranaseeditem.png
+-│              hotnettleteaitem.png
+-│              lotusitem.png
+-│              lotusseeditem.png
+-│              nettlesitem.png
+-│              nettlesseeditem.png
+-│              nopalesitem.png
+-│              nopalesseeditem.png
+-│              papyrusitem.png
+-│              papyrusseeditem.png
+-│              roastedgarlicitem.png
+-│              roastedkohlrabiitem.png
+-│              roastedleekitem.png
+-│              roastedmushroomitem.png
+-│              roastedonionitem.png
+-│              roastedradishitem.png
+-│              roastedrhubarbitem.png
+-│              roastedscallionitem.png
+-│              sorghumseeditem.png
+-│              sunchokeseeditem.png
+-│              truffleitem.png
+-│              truffleseeditem.png
+-│              wolfberryitem.png
+-│              wolfberryseeditem.png
+-│              yuccaitem.png
+-│              yuccaseeditem.png
+ │
+ ├─pamhc2foodcore
+ │  └─textures
+ │      └─item
+-│              appledonutitem.png
+-│              applejellytoastitem.png
+-│              applemuffinitem.png
+-│              applepieitem.png
+-│              applepopsicleitem.png
+-│              bakedvegetablemedlyitem.png
+-│              bakewareitem.png
+-│              basiccheeseburgeritem.png
+-│              basicchickensandwichitem.png
+-│              basicfishsandwichitem.png
+-│              basichamburgeritem.png
+-│              beefpotpieitem.png
+-│              butteredpotatoitem.png
+-│              carameldonutitem.png
+-│              caramelmuffinitem.png
+-│              caramelpieitem.png
+-│              caramelyogurtitem.png
+-│              carrotbreaditem.png
+-│              carrotdonutitem.png
+-│              carrotmuffinitem.png
+-│              carrotpieitem.png
+-│              chickenjerkyitem.png
+-│              chickennuggetitem.png
+-│              chocolatecakeitem.png
+-│              chocolatemuffinitem.png
+-│              chocolatepieitem.png
+-│              chorusdonutitem.png
+-│              chorusjellyitem.png
+-│              chorusjellytoastitem.png
+-│              chorusjuiceitem.png
+-│              chorusmuffinitem.png
+-│              choruspieitem.png
+-│              choruspopsicleitem.png
+-│              chorussmoothieitem.png
+-│              chorusyogurtitem.png
+-│              cookedgroundbeefitem.png
+-│              cookedgroundchickenitem.png
+-│              cookedgroundfishitem.png
+-│              cookedgroundmuttonitem.png
+-│              cookedgroundporkitem.png
+-│              cookedgroundrabbititem.png
+-│              cookingoilitem.png
+-│              cuttingboarditem.png
+-│              fishjerkyitem.png
+-│              fishpotpieitem.png
+-│              fudgesicleitem.png
+-│              glowberrydonutitem.png
+-│              glowberryjellyitem.png
+-│              glowberryjellytoastitem.png
+-│              glowberryjuiceitem.png
+-│              glowberrymuffinitem.png
+-│              glowberrypieitem.png
+-│              glowberrypopsicleitem.png
+-│              glowberrysmoothieitem.png
+-│              glowberryyogurtitem.png
+-│              grinderitem.png
+-│              gummycreepersitem.png
+-│              honeyglazeddonutitem.png
+-│              honeymuffinitem.png
+-│              honeypieitem.png
+-│              juiceritem.png
+-│              macncheeseitem.png
+-│              melondonutitem.png
+-│              melonjellyitem.png
+-│              melonjellytoastitem.png
+-│              melonmuffinitem.png
+-│              melonpopsicleitem.png
+-│              mixingbowlitem.png
+-│              muttonjerkyitem.png
+-│              muttonpotpieitem.png
+-│              noodlesoupitem.png
+-│              p8juiceitem.png
+-│              plaindonutitem.png
+-│              porkjerkyitem.png
+-│              porkpotpieitem.png
+-│              potitem.png
+-│              pumpkindonutitem.png
+-│              rabbitjerkyitem.png
+-│              rabbitpotpieitem.png
+-│              roastedsunflowerseedsitem.png
+-│              rolleritem.png
+-│              saucepanitem.png
+-│              skilletitem.png
+-│              sprinklesdonutitem.png
+-│              stewitem.png
+-│              sweetberrydonutitem.png
+-│              sweetberryjellyitem.png
+-│              sweetberryjellytoastitem.png
+-│              sweetberryjuiceitem.png
+-│              sweetberrymuffinitem.png
+-│              sweetberrypieitem.png
+-│              sweetberrypopsicleitem.png
+-│              sweetberrysmoothieitem.png
+-│              sweetberryyogurtitem.png
+ │
+ ├─pamhc2foodextended
+ │  └─textures
+ │      └─item
+-│              aebleskiversitem.png
+-│              apricotjellytoastitem.png
+-│              apricotpieitem.png
+-│              avocadotoastitem.png
+-│              bananajellyitem.png
+-│              bananajellysandwichitem.png
+-│              bananajellytoastitem.png
+-│              bananajuiceitem.png
+-│              bananapieitem.png
+-│              beancornmealitem.png
+-│              blackberryjellytoastitem.png
+-│              blackberrypieitem.png
+-│              blueberryjellytoastitem.png
+-│              breadfruitjellyitem.png
+-│              breadfruitjellysandwichitem.png
+-│              breadfruitjellytoastitem.png
+-│              breadfruitjuiceitem.png
+-│              breadfruitpieitem.png
+-│              breadfruitsmoothieitem.png
+-│              breadfruityogurtitem.png
+-│              cactusfruitjellyitem.png
+-│              cactusfruitjellysandwichitem.png
+-│              cactusfruitjellytoastitem.png
+-│              cactusfruitpieitem.png
+-│              cactusfruitsmoothieitem.png
+-│              cactusfruityogurtitem.png
+-│              candleberryjellyitem.png
+-│              candleberryjellysandwichitem.png
+-│              candleberryjellytoastitem.png
+-│              candleberryjuiceitem.png
+-│              candleberrypieitem.png
+-│              candleberrysmoothieitem.png
+-│              candleberryyogurtitem.png
+-│              candycornitem.png
+-│              cantaloupejellyitem.png
+-│              cantaloupejellysandwichitem.png
+-│              cantaloupejellytoastitem.png
+-│              cantaloupejuiceitem.png
+-│              cantaloupepieitem.png
+-│              cantaloupesmoothieitem.png
+-│              cantaloupeyogurtitem.png
+-│              capresesaladitem.png
+-│              carrotjuiceitem.png
+-│              cheesytacotortillachipsitem.png
+-│              cherryjellytoastitem.png
+-│              chickenalfredoitem.png
+-│              chickendinneritem.png
+-│              chickenshapeitem.png
+-│              chickentendersitem.png
+-│              chickentendersmealitem.png
+-│              chocolatechippancakesitem.png
+-│              chocolatemilkitem.png
+-│              chocolatemilkshakeitem.png
+-│              chocolateorangebiscuititem.png
+-│              chocolatepeanutbaritem.png
+-│              cookedgroundbeefitem.png
+-│              cookedgroundchickenitem.png
+-│              cookedgroundfishitem.png
+-│              cookedgroundmuttonitem.png
+-│              cookedgroundporkitem.png
+-│              cookedgroundrabbititem.png
+-│              cookoutmealitem.png
+-│              cornedbeefandcabbageitem.png
+-│              cottoncandyitem.png
+-│              couscousitem.png
+-│              cowshapeitem.png
+-│              crackersandcheeseitem.png
+-│              cranberryjellytoastitem.png
+-│              cranberrypieitem.png
+-│              creamofchickenitem.png
+-│              creamofmushroomitem.png
+-│              cucumbersandwichitem.png
+-│              dandelionlteaitem.png
+-│              datejellyitem.png
+-│              datejellysandwichitem.png
+-│              datejellytoastitem.png
+-│              datejuiceitem.png
+-│              datepieitem.png
+-│              datesmoothieitem.png
+-│              dateyogurtitem.png
+-│              dragonfruitjellyitem.png
+-│              dragonfruitjellysandwichitem.png
+-│              dragonfruitjellytoastitem.png
+-│              dragonfruitjuiceitem.png
+-│              dragonfruitpieitem.png
+-│              dragonfruitsmoothieitem.png
+-│              dragonfruityogurtitem.png
+-│              durianjellyitem.png
+-│              durianjellysandwichitem.png
+-│              durianjellytoastitem.png
+-│              durianjuiceitem.png
+-│              durianpieitem.png
+-│              duriansmoothieitem.png
+-│              durianyogurtitem.png
+-│              elderberryjellyitem.png
+-│              elderberryjellysandwichitem.png
+-│              elderberryjellytoastitem.png
+-│              elderberryjuiceitem.png
+-│              elderberrypieitem.png
+-│              elderberrysmoothieitem.png
+-│              elderberryyogurtitem.png
+-│              fajitaburritoitem.png
+-│              figjellytoastitem.png
+-│              figpieitem.png
+-│              fishcakesitem.png
+-│              fishfingersandcustarditem.png
+-│              fishshapeitem.png
+-│              gooseberryjellytoastitem.png
+-│              grandmasmacaronicasseroleitem.png
+-│              grapefruitjellytoastitem.png
+-│              grapefruitjuiceitem.png
+-│              grapefruitpieitem.png
+-│              grapejellysandwichitem.png
+-│              grapejellytoastitem.png
+-│              grapepieitem.png
+-│              greengrapejellyitem.png
+-│              greengrapejellysandwichitem.png
+-│              greengrapejellytoastitem.png
+-│              greengrapejuiceitem.png
+-│              greengrapepieitem.png
+-│              greengrapesmoothieitem.png
+-│              greengrapeyogurtitem.png
+-│              guavajellyitem.png
+-│              guavajellysandwichitem.png
+-│              guavajellytoastitem.png
+-│              guavajuiceitem.png
+-│              guavapieitem.png
+-│              guavasmoothieitem.png
+-│              guavayogurtitem.png
+-│              hazelnutbutteritem.png
+-│              hazelnutchocolateitem.png
+-│              hazelnutcoffeeitem.png
+-│              herbcheeseballitem.png
+-│              huckleberryjellyitem.png
+-│              huckleberryjellysandwichitem.png
+-│              huckleberryjellytoastitem.png
+-│              huckleberryjuiceitem.png
+-│              huckleberrypieitem.png
+-│              huckleberrysmoothieitem.png
+-│              huckleberryyogurtitem.png
+-│              jackfruitjellyitem.png
+-│              jackfruitjellysandwichitem.png
+-│              jackfruitjellytoastitem.png
+-│              jackfruitjuiceitem.png
+-│              jackfruitpieitem.png
+-│              jackfruitsmoothieitem.png
+-│              jackfruityogurtitem.png
+-│              jalapenoburgeritem.png
+-│              jellyrollitem.png
+-│              juniperberryjellyitem.png
+-│              juniperberryjellysandwichitem.png
+-│              juniperberryjellytoastitem.png
+-│              juniperberryjuiceitem.png
+-│              juniperberrypieitem.png
+-│              juniperberrysmoothieitem.png
+-│              juniperberryyogurtitem.png
+-│              juniperpieitem.png
+-│              kiwijellytoastitem.png
+-│              kiwipieitem.png
+-│              lemonjellytoastitem.png
+-│              lemonjuiceitem.pngm.png
+-│              lemonpieitem.png
+-│              limejellytoastitem.png
+-│              limepieitem.pngng
+-│              loxbagelsandwichitem.png
+-│              lycheejellyitem.png
+-│              lycheejellysandwichitem.png
+-│              lycheejellytoastitem.png
+-│              lycheejuiceitem.png
+-│              lycheepieitem.png
+-│              lycheesmoothieitem.png
+-│              lycheeyogurtitem.png
+-│              mangojellytoastitem.png
+-│              mangopieitem.png
+-│              melonjellysandwichitem.png
+-│              mixedflowerssaladitem.png
+-│              molasseschickenitem.png
+-│              mulberryjellyitem.png
+-│              mulberryjellysandwichitem.png
+-│              mulberryjellytoastitem.png
+-│              mulberryjuiceitem.png
+-│              mulberrypieitem.png
+-│              mulberrysmoothieitem.png
+-│              mulberryyogurtitem.png
+-│              mushroomoilitem.png
+-│              nuttoppedicecreamitem.png
+-│              oatmealraisincookiesitem.png
+-│              orangegingerbeefitem.png
+-│              orangejellytoastitem.png
+-│              orangepieitem.png
+-│              papayajellytoastitem.png
+-│              papayapieitem.png
+-│              passionfruitjellyitem.png
+-│              passionfruitjellysandwichitem.png
+-│              passionfruitjellytoastitem.png
+-│              passionfruitjuiceitem.png
+-│              passionfruitpieitem.png
+-│              passionfruitsmoothieitem.png
+-│              passionfruityogurtitem.png
+-│              pawpawjellyitem.png
+-│              pawpawjellysandwichitem.png
+-│              pawpawjellytoastitem.png
+-│              pawpawjuiceitem.png
+-│              pawpawpieitem.png
+-│              pawpawsmoothieitem.png
+-│              pawpawyogurtitem.png
+-│              peachjellytoastitem.png
+-│              peachpieitem.png
+-│              peanutbutterbananapancakesitem.png
+-│              peanutchocolatebaritem.png
+-│              pearjellytoastitem.png
+-│              pearpieitem.png
+-│              pecanbutteritem.png
+-│              pepperonipizzaitem.png
+-│              pepperstirfryitem.png
+-│              persimmonjellytoastitem.png
+-│              persimmonpieitem.png
+-│              pigshapeitem.png
+-│              pineapplejellyitem.png
+-│              pineapplejellysandwichitem.png
+-│              pineapplejellytoastitem.png
+-│              pineapplejuiceitem.png
+-│              pineapplepieitem.png
+-│              pineapplesmoothieitem.png
+-│              plumjellytoastitem.png
+-│              plumpieitem.png
+-│              pokebowlitem.png
+-│              pomegranatejellytoastitem.png
+-│              pomegranatepieitem.png
+-│              powdereddonutitem.png
+-│              rabbitshapeitem.png
+-│              rambutanjellyitem.png
+-│              rambutanjellysandwichitem.png
+-│              rambutanjellytoastitem.png
+-│              rambutanjuiceitem.png
+-│              rambutanpieitem.png
+-│              rambutansmoothieitem.png
+-│              rambutanyogurtitem.png
+-│              ranchfriedchickenitem.png
+-│              raspberryjellytoastitem.png
+-│              relishitem.png
+-│              saltandpepperitem.png
+-│              sheepshapeitem.png
+-│              sorbetitem.png
+-│              soursopjellyitem.png
+-│              soursopjellysandwichitem.png
+-│              soursopjellytoastitem.png
+-│              soursopjuiceitem.png
+-│              soursoppieitem.png
+-│              soursopsmoothieitem.png
+-│              soursopyogurtitem.png
+-│              starfruitjellytoastitem.png
+-│              starfruitpieitem.png
+-│              strawberryjellytoastitem.png
+-│              sunflowerseedsbutteritem.png
+-│              sweetberryjellysandwichitem.png
+-│              tamarindjellyitem.png
+-│              tamarindjellysandwichitem.png
+-│              tamarindjellytoastitem.png
+-│              tamarindjuiceitem.png
+-│              tamarindpieitem.png
+-│              tamarindsmoothieitem.png
+-│              tamarindyogurtitem.png
+-│              walnutbutteritem.png
+ │              zucchinifriesitem.png
+ │
+ └─pamhc2trees
+-    ├─models
+-    │  ├─block
+-    │  │      acorn_sapling.json
+-    │  │      acorn_stage_0.json
+-    │  │      acorn_stage_1.json
+-    │  │      acorn_stage_2.json
+-    │  │      almond_sapling.json
+-    │  │      almond_stage_0.json
+-    │  │      almond_stage_1.json
+-    │  │      almond_stage_2.json
+-    │  │      apple_sapling.json
+-    │  │      apple_stage_0.json
+-    │  │      apple_stage_1.json
+-    │  │      apple_stage_2.json
+-    │  │      apricot_sapling.json
+-    │  │      apricot_stage_0.json
+-    │  │      apricot_stage_1.json
+-    │  │      apricot_stage_2.json
+-    │  │      avocado_sapling.json
+-    │  │      avocado_stage_0.json
+-    │  │      avocado_stage_1.json
+-    │  │      avocado_stage_2.json
+-    │  │      banana_sapling.json
+-    │  │      banana_stage_0.json
+-    │  │      banana_stage_1.json
+-    │  │      banana_stage_2.json
+-    │  │      breadfruit_sapling.json
+-    │  │      breadfruit_stage_0.json
+-    │  │      breadfruit_stage_1.json
+-    │  │      breadfruit_stage_2.json
+-    │  │      candlenut_sapling.json
+-    │  │      candlenut_stage_0.json
+-    │  │      candlenut_stage_1.json
+-    │  │      candlenut_stage_2.json
+-    │  │      cashew_sapling.json
+-    │  │      cashew_stage_0.json
+-    │  │      cashew_stage_1.json
+-    │  │      cashew_stage_2.json
+-    │  │      cherry_sapling.json
+-    │  │      cherry_stage_0.json
+-    │  │      cherry_stage_1.json
+-    │  │      cherry_stage_2.json
+-    │  │      chestnut_sapling.json
+-    │  │      chestnut_stage_0.json
+-    │  │      chestnut_stage_1.json
+-    │  │      chestnut_stage_2.json
+-    │  │      cinnamon_sapling.json
+-    │  │      cinnamon_stage_0.json
+-    │  │      cinnamon_stage_1.json
+-    │  │      cinnamon_stage_2.json
+-    │  │      coconut_sapling.json
+-    │  │      coconut_stage_0.json
+-    │  │      coconut_stage_1.json
+-    │  │      coconut_stage_2.json
+-    │  │      date_sapling.json
+-    │  │      date_stage_0.json
+-    │  │      date_stage_1.json
+-    │  │      date_stage_2.json
+-    │  │      dragonfruit_sapling.json
+-    │  │      dragonfruit_stage_0.json
+-    │  │      dragonfruit_stage_1.json
+-    │  │      dragonfruit_stage_2.json
+-    │  │      durian_sapling.json
+-    │  │      durian_stage_0.json
+-    │  │      durian_stage_1.json
+-    │  │      durian_stage_2.json
+-    │  │      fig_sapling.json
+-    │  │      fig_stage_0.json
+-    │  │      fig_stage_1.json
+-    │  │      fig_stage_2.json
+-    │  │      gooseberry_sapling.json
+-    │  │      gooseberry_stage_0.json
+-    │  │      gooseberry_stage_1.json
+-    │  │      gooseberry_stage_2.json
+-    │  │      grapefruit_sapling.json
+-    │  │      grapefruit_stage_0.json
+-    │  │      grapefruit_stage_1.json
+-    │  │      grapefruit_stage_2.json
+-    │  │      guava_sapling.json
+-    │  │      guava_stage_0.json
+-    │  │      guava_stage_1.json
+-    │  │      guava_stage_2.json
+-    │  │      hazelnut_sapling.json
+-    │  │      hazelnut_stage_0.json
+-    │  │      hazelnut_stage_1.json
+-    │  │      hazelnut_stage_2.json
+-    │  │      jackfruit_sapling.json
+-    │  │      jackfruit_stage_0.json
+-    │  │      jackfruit_stage_1.json
+-    │  │      jackfruit_stage_2.json
+-    │  │      lemon_sapling.json
+-    │  │      lemon_stage_0.json
+-    │  │      lemon_stage_1.json
+-    │  │      lemon_stage_2.json
+-    │  │      lime_sapling.json
+-    │  │      lime_stage_0.json
+-    │  │      lime_stage_1.json
+-    │  │      lime_stage_2.json
+-    │  │      lychee_sapling.json
+-    │  │      lychee_stage_0.json
+-    │  │      lychee_stage_1.json
+-    │  │      lychee_stage_2.json
+-    │  │      mango_sapling.json
+-    │  │      mango_stage_0.json
+-    │  │      mango_stage_1.json
+-    │  │      mango_stage_2.json
+-    │  │      maple_sapling.json
+-    │  │      maple_stage_0.json
+-    │  │      maple_stage_1.json
+-    │  │      maple_stage_2.json
+-    │  │      nutmeg_sapling.json
+-    │  │      nutmeg_stage_0.json
+-    │  │      nutmeg_stage_1.json
+-    │  │      nutmeg_stage_2.json
+-    │  │      olive_sapling.json
+-    │  │      olive_stage_0.json
+-    │  │      olive_stage_1.json
+-    │  │      olive_stage_2.json
+-    │  │      orange_sapling.json
+-    │  │      orange_stage_0.json
+-    │  │      orange_stage_1.json
+-    │  │      orange_stage_2.json
+-    │  │      papaya_sapling.json
+-    │  │      papaya_stage_0.json
+-    │  │      papaya_stage_1.json
+-    │  │      papaya_stage_2.json
+-    │  │      paperbark_sapling.json
+-    │  │      paperbark_stage_0.json
+-    │  │      paperbark_stage_1.json
+-    │  │      paperbark_stage_2.json
+-    │  │      passionfruit_sapling.json
+-    │  │      passionfruit_stage_0.json
+-    │  │      passionfruit_stage_1.json
+-    │  │      passionfruit_stage_2.json
+-    │  │      pawpaw_sapling.json
+-    │  │      pawpaw_stage_0.json
+-    │  │      pawpaw_stage_1.json
+-    │  │      pawpaw_stage_2.json
+-    │  │      peach_sapling.json
+-    │  │      peach_stage_0.json
+-    │  │      peach_stage_1.json
+-    │  │      peach_stage_2.json
+-    │  │      pear_sapling.json
+-    │  │      pear_stage_0.json
+-    │  │      pear_stage_1.json
+-    │  │      pear_stage_2.json
+-    │  │      pecan_sapling.json
+-    │  │      pecan_stage_0.json
+-    │  │      pecan_stage_1.json
+-    │  │      pecan_stage_2.json
+-    │  │      peppercorn_sapling.json
+-    │  │      peppercorn_stage_0.json
+-    │  │      peppercorn_stage_1.json
+-    │  │      peppercorn_stage_2.json
+-    │  │      persimmon_sapling.json
+-    │  │      persimmon_stage_0.json
+-    │  │      persimmon_stage_1.json
+-    │  │      persimmon_stage_2.json
+-    │  │      pinenut_sapling.json
+-    │  │      pinenut_stage_0.json
+-    │  │      pinenut_stage_1.json
+-    │  │      pinenut_stage_2.json
+-    │  │      pistachio_sapling.json
+-    │  │      pistachio_stage_0.json
+-    │  │      pistachio_stage_1.json
+-    │  │      pistachio_stage_2.json
+-    │  │      plum_sapling.json
+-    │  │      plum_stage_0.json
+-    │  │      plum_stage_1.json
+-    │  │      plum_stage_2.json
+-    │  │      pomegranate_sapling.json
+-    │  │      pomegranate_stage_0.json
+-    │  │      pomegranate_stage_1.json
+-    │  │      pomegranate_stage_2.json
+-    │  │      rambutan_sapling.json
+-    │  │      rambutan_stage_0.json
+-    │  │      rambutan_stage_1.json
+-    │  │      rambutan_stage_2.json
+-    │  │      soursop_sapling.json
+-    │  │      soursop_stage_0.json
+-    │  │      soursop_stage_1.json
+-    │  │      soursop_stage_2.json
+-    │  │      spiderweb_sapling.json
+-    │  │      spiderweb_stage_0.json
+-    │  │      spiderweb_stage_1.json
+-    │  │      spiderweb_stage_2.json
+-    │  │      starfruit_sapling.json
+-    │  │      starfruit_stage_0.json
+-    │  │      starfruit_stage_1.json
+-    │  │      starfruit_stage_2.json
+-    │  │      tamarind_sapling.json
+-    │  │      tamarind_stage_0.json
+-    │  │      tamarind_stage_1.json
+-    │  │      tamarind_stage_2.json
+-    │  │      vanillabean_sapling.json
+-    │  │      vanillabean_stage_0.json
+-    │  │      vanillabean_stage_1.json
+-    │  │      vanillabean_stage_2.json
+-    │  │      walnut_sapling.json
+-    │  │      walnut_stage_0.json
+-    │  │      walnut_stage_1.json
+-    │  │      walnut_stage_2.json
+-    │  │
+-    │
+     └─textures
+         ├─block
+-        │      acorn_sapling.png
+-        │      acorn_stage_0.png
+-        │      acorn_stage_1.png
+-        │      acorn_stage_2.png
+-        │      almond_sapling.png
+-        │      almond_stage_0.png
+-        │      almond_stage_1.png
+-        │      almond_stage_2.png
+-        │      apple_sapling.png
+-        │      apple_stage_0.png
+-        │      apple_stage_1.png
+-        │      apple_stage_2.png
+-        │      apricot_sapling.png
+-        │      apricot_stage_0.png
+-        │      apricot_stage_1.png
+-        │      apricot_stage_2.png
+-        │      avocado_sapling.png
+-        │      avocado_stage_0.png
+-        │      avocado_stage_1.png
+-        │      avocado_stage_2.png
+-        │      banana_sapling.png
+-        │      banana_stage_0.png
+-        │      banana_stage_1.png
+-        │      banana_stage_2.png
+-        │      breadfruit_sapling.png
+-        │      breadfruit_stage_0.png
+-        │      breadfruit_stage_1.png
+-        │      breadfruit_stage_2.png
+-        │      candlenut_sapling.png
+-        │      candlenut_stage_0.png
+-        │      candlenut_stage_1.png
+-        │      candlenut_stage_2.png
+-        │      cashew_sapling.png
+-        │      cashew_stage_0.png
+-        │      cashew_stage_1.png
+-        │      cashew_stage_2.png
+-        │      cherry_sapling.png
+-        │      cherry_stage_0.png
+-        │      cherry_stage_1.png
+-        │      cherry_stage_2.png
+-        │      chestnut_sapling.png
+-        │      chestnut_stage_0.png
+-        │      chestnut_stage_1.png
+-        │      chestnut_stage_2.png
+-        │      cinnamon_sapling.png
+-        │      cinnamon_stage_0.png
+-        │      cinnamon_stage_1.png
+-        │      cinnamon_stage_2.png
+-        │      coconut_sapling.png
+-        │      coconut_stage_0.png
+-        │      coconut_stage_1.png
+-        │      coconut_stage_2.png
+-        │      date_sapling.png
+-        │      date_stage_0.png
+-        │      date_stage_1.png
+-        │      date_stage_2.png
+-        │      dragonfruit_sapling.png
+-        │      dragonfruit_stage_0.png
+-        │      dragonfruit_stage_1.png
+-        │      dragonfruit_stage_2.png
+-        │      durian_sapling.png
+-        │      durian_stage_0.png
+-        │      durian_stage_1.png
+-        │      durian_stage_2.png
+-        │      fig_sapling.png
+-        │      fig_stage_0.png
+-        │      fig_stage_1.png
+-        │      fig_stage_2.png
+-        │      gooseberry_sapling.png
+-        │      gooseberry_stage_0.png
+-        │      gooseberry_stage_1.png
+-        │      gooseberry_stage_2.png
+-        │      grapefruit_sapling.png
+-        │      grapefruit_stage_0.png
+-        │      grapefruit_stage_1.png
+-        │      grapefruit_stage_2.png
+-        │      guava_sapling.png
+-        │      guava_stage_0.png
+-        │      guava_stage_1.png
+-        │      guava_stage_2.png
+-        │      hazelnut_sapling.png
+-        │      hazelnut_stage_0.png
+-        │      hazelnut_stage_1.png
+-        │      hazelnut_stage_2.png
+-        │      jackfruit_sapling.png
+-        │      jackfruit_stage_0.png
+-        │      jackfruit_stage_1.png
+-        │      jackfruit_stage_2.png
+-        │      lemon_sapling.png
+-        │      lemon_stage_0.png
+-        │      lemon_stage_1.png
+-        │      lemon_stage_2.png
+-        │      lime_sapling.png
+-        │      lime_stage_0.png
+-        │      lime_stage_1.png
+-        │      lime_stage_2.png
+-        │      lychee_sapling.png
+-        │      lychee_stage_0.png
+-        │      lychee_stage_1.png
+-        │      lychee_stage_2.png
+-        │      mango_sapling.png
+-        │      mango_stage_0.png
+-        │      mango_stage_1.png
+-        │      mango_stage_2.png
+-        │      maple_sapling.png
+-        │      maple_stage_0.png
+-        │      maple_stage_1.png
+-        │      maple_stage_2.png
+-        │      nutmeg_sapling.png
+-        │      nutmeg_stage_0.png
+-        │      nutmeg_stage_1.png
+-        │      nutmeg_stage_2.png
+-        │      olive_sapling.png
+-        │      olive_stage_0.png
+-        │      olive_stage_1.png
+-        │      olive_stage_2.png
+-        │      orange_sapling.png
+-        │      orange_stage_0.png
+-        │      orange_stage_1.png
+-        │      orange_stage_2.png
+-        │      papaya_sapling.png
+-        │      papaya_stage_0.png
+-        │      papaya_stage_1.png
+-        │      papaya_stage_2.png
+-        │      paperbark_sapling.png
+-        │      paperbark_stage_0.png
+-        │      paperbark_stage_1.png
+-        │      paperbark_stage_2.png
+-        │      passionfruit_sapling.png
+-        │      passionfruit_stage_0.png
+-        │      passionfruit_stage_1.png
+-        │      passionfruit_stage_2.png
+-        │      pawpaw_sapling.png
+-        │      pawpaw_stage_0.png
+-        │      pawpaw_stage_1.png
+-        │      pawpaw_stage_2.png
+-        │      peach_sapling.png
+-        │      peach_stage_0.png
+-        │      peach_stage_1.png
+-        │      peach_stage_2.png
+-        │      pear_sapling.png
+-        │      pear_stage_0.png
+-        │      pear_stage_1.png
+-        │      pear_stage_2.png
+-        │      pecan_sapling.png
+-        │      pecan_stage_0.png
+-        │      pecan_stage_1.png
+-        │      pecan_stage_2.png
+-        │      peppercorn_sapling.png
+-        │      peppercorn_stage_0.png
+-        │      peppercorn_stage_1.png
+-        │      peppercorn_stage_2.png
+-        │      persimmon_sapling.png
+-        │      persimmon_stage_0.png
+-        │      persimmon_stage_1.png
+-        │      persimmon_stage_2.png
+-        │      pinenut_sapling.png
+-        │      pinenut_stage_0.png
+-        │      pinenut_stage_1.png
+-        │      pinenut_stage_2.png
+-        │      pistachio_sapling.png
+-        │      pistachio_stage_0.png
+-        │      pistachio_stage_1.png
+-        │      pistachio_stage_2.png
+-        │      plum_sapling.png
+-        │      plum_stage_0.png
+-        │      plum_stage_1.png
+-        │      plum_stage_2.png
+-        │      pomegranate_sapling.png
+-        │      pomegranate_stage_0.png
+-        │      pomegranate_stage_1.png
+-        │      pomegranate_stage_2.png
+-        │      rambutan_sapling.png
+-        │      rambutan_stage_0.png
+-        │      rambutan_stage_1.png
+-        │      rambutan_stage_2.png
+-        │      soursop_sapling.png
+-        │      soursop_stage_0.png
+-        │      soursop_stage_1.png
+-        │      soursop_stage_2.png
+-        │      spiderweb_sapling.png
+-        │      spiderweb_stage_0.png
+-        │      spiderweb_stage_1.png
+-        │      spiderweb_stage_2.png
+-        │      starfruit_sapling.png
+-        │      starfruit_stage_0.png
+-        │      starfruit_stage_1.png
+-        │      starfruit_stage_2.png
+-        │      tamarind_sapling.png
+-        │      tamarind_stage_0.png
+-        │      tamarind_stage_1.png
+-        │      tamarind_stage_2.png
+-        │      vanillabean_sapling.png
+-        │      vanillabean_stage_0.png
+-        │      vanillabean_stage_1.png
+-        │      vanillabean_stage_2.png
+-        │      walnut_sapling.png
+-        │      walnut_stage_0.png
+-        │      walnut_stage_1.png
+-        │      walnut_stage_2.png
+-        │
+         └─item
+-                acornitem.png
+-                pinenutitem.png
+-                roastedacornitem.png
+-                roastedalmonditem.png
+-                roastedcashewitem.png
+-                roastedhazelnutitem.png
+-                roastedpecanitem.png
+-                roastedpinenutitem.png
+-                roastedpistachioitem.png
+-                roastedwalnutitem.png
+-                walnutitem.png
+```
+
+</details>
+
+## 📄 开源协议 / License
+
+本项目采用 **MIT 开源许可证** 进行授权。
+
+简单来说，这意味着**您可以完全自由地**：
+
+* **使用**：在您自己的整合包、服务器、视频或任何项目中免费使用本材质包。
+* **分发**：自由地分享、复制和重新分发本材质包。
+* **修改**：根据您的需求自由地修改、衍生和创作。
+* **商用**：可用于商业用途。
