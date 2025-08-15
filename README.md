@@ -12,8 +12,6 @@
 
 ## 🎨 对比截图 / Comparison
 
-通过对比图，您可以直观地感受到材质包带来的视觉提升。
-
 **使用前 (Before):**
 
 <img width="623" height="478" alt="Vanilla Pam's HarvestCraft 2 Textures" src="https://github.com/user-attachments/assets/9796a5d7-f56f-46ee-a45a-d0cbc840fa6e" />
@@ -905,10 +903,3 @@
 ## 📄 开源协议 / License
 
 本项目采用 **MIT 开源许可证** 进行授权。
-
-简单来说，这意味着**您可以完全自由地**：
-
-- **使用**：在您自己的整合包、服务器、视频或任何项目中免费使用本材质包。
-- **分发**：自由地分享、复制和重新分发本材质包。
-- **修改**：根据您的需求自由地修改、衍生和创作。
-- **商用**：可用于商业用途。
